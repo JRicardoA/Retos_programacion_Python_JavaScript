@@ -1,10 +1,10 @@
-//Escribe un programa que pida al usuario una lista de números separados por comas y muestre la suma de todos los elementos.const readline = require("readline");
+//Escribe un programa que pida al usuario una lista de números separados por comas y muestre la suma de todos los elementos.
 const readline = require("readline");
 const rl = readline.createInterface({
   input: process.stdin,  
   output: process.stdout 
 });
-rl.question("Ingresa numeros separados por letras: ", (input) => {
+rl.question("Ingresa numeros separados por comas: ", (input) => {
     let numero = input.split(',')
     let numero_2 = numero.map(elemento => parseInt(elemento))
     let suma = 0
@@ -13,3 +13,5 @@ rl.question("Ingresa numeros separados por letras: ", (input) => {
     }
     console.log(suma)
 rl.close();});
+
+// la solucion de chatgpt utiliza reduce
