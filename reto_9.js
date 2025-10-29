@@ -1,5 +1,4 @@
 //Escribe un programa que reciba una lista de números (ingresados por el usuario y separados por comas), y calcule la suma de todos los números pares de esa lista.
-//Escribe un programa que pida al usuario una lista de números separados por comas y muestre la suma de todos los elementos.
 const readline = require("readline");
 const rl = readline.createInterface({
   input: process.stdin,  
