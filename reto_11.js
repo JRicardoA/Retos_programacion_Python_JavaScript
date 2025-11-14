@@ -15,3 +15,4 @@ rl.question("Ingresa números separados por comas: ", (input) => {
  console.log(`los numeros pares son: ${pares}`)
  console.log(`los numeros impares son: ${impares}`)
 });
+// chatgpt usa el commando push y un if parecido al de python
